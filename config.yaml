@@ -1,0 +1,12 @@
+batch_size: 12
+embedding_dim: 512
+frame_rate: 1.5
+frames_folder: frames
+frames_per_video: 25
+model_name: openai/clip-vit-base-patch32
+query_indices:
+- 0
+- 15
+- 25
+top_k: 5
+video_folder: videos

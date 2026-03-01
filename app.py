@@ -166,7 +166,7 @@ Keep it to 3-4 sentences maximum."""
         response = requests.post(
             url="https://openrouter.ai/api/v1/chat/completions",
             headers={
-                "Authorization": "Bearer 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",
+                "Authorization": "Bearer OPENROUTER_API_KEY_DEV",
                 "Content-Type": "application/json",
             },
             json={
